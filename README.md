@@ -157,7 +157,7 @@ span{
 As, I have integrated the API key from the OPENWEATHERMAP, was an online free API key source. Which will gives us the current weather data.
 From the JSON of API key we have imported the data of weather changes.
 
-const apiKey = "d0889e81b45386327dc2a086c34d60a1";
+const apiKey = "ERROR{Private Code. Make your self own from below link}";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
