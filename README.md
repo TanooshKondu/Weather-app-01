@@ -1,5 +1,8 @@
 # Weather-app-01
 
+I have used some images for weather change occurs in report. According to the report the images will be changed as the information gathered from JSON.
+Also, I have linked Bootstrap for better page experience.
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +51,7 @@
 </body>
 </html>
 
-
+In CSS, I have used the background- images for the web page.
 
 *{
     margin: 0;
@@ -151,7 +154,8 @@ span{
     display:none;
 }
 
-
+As, I have integrated the API key from the OPENWEATHERMAP, was an online free API key source. Which will gives us the current weather data.
+From the JSON of API key we have imported the data of weather changes.
 
 const apiKey = "d0889e81b45386327dc2a086c34d60a1";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
